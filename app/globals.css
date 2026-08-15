@@ -1,0 +1,73 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import 'shadcn/tailwind.css';
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --font-sans: 'Geist', 'Geist Fallback';
+  --font-mono: 'Geist Mono', 'Geist Mono Fallback';
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --radius-sm: calc(var(--radius) * .65);
+  --radius-md: calc(var(--radius) * .8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.35);
+}
+
+:root {
+  color-scheme: dark;
+  --background: #0b1020;
+  --foreground: #e8ebf5;
+  --card: #141a2e;
+  --card-foreground: #e8ebf5;
+  --popover: #141a2e;
+  --popover-foreground: #e8ebf5;
+  --primary: #d97706;
+  --primary-foreground: #0b1020;
+  --secondary: #1c2338;
+  --secondary-foreground: #e8ebf5;
+  --muted: #1c2338;
+  --muted-foreground: #9aa4c0;
+  --accent: #f43f5e;
+  --accent-foreground: #fdf2f4;
+  --destructive: #f87171;
+  --border: #2a3350;
+  --input: #2a3350;
+  --ring: #d97706;
+  --radius: .7rem;
+}
+
+@layer base {
+  * { @apply border-border outline-ring/50; }
+  html { @apply bg-background; }
+  body { @apply bg-background text-foreground; background-image: linear-gradient(rgba(217, 119, 6, .03) 1px, transparent 1px), linear-gradient(90deg, rgba(217, 119, 6, .03) 1px, transparent 1px); background-size: 32px 32px; }
+  button, select { @apply outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background; }
+}
+
+@layer components {
+  .panel { @apply rounded-xl border border-border bg-card p-5 shadow-sm md:p-6; }
+  .eyebrow { @apply font-mono text-xs font-semibold uppercase tracking-[0.16em] text-primary; }
+  .status { @apply rounded-full border border-primary/30 bg-primary/10 px-2.5 py-1 font-mono text-xs text-primary; }
+  .status-alert { @apply border-accent/30 bg-accent/10 text-accent; }
+}
+
+.leaflet-container { font-family: inherit; }
+.leaflet-control-attribution, .leaflet-control-zoom a { background: var(--card) !important; color: var(--muted-foreground) !important; border-color: var(--border) !important; }
+.leaflet-popup-content-wrapper, .leaflet-popup-tip { background: var(--card); color: var(--foreground); }

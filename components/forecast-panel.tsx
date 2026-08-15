@@ -1,0 +1,49 @@
+'use client'
+
+import dynamic from 'next/dynamic'
+import useSWR from 'swr'
+import { useMemo, useState } from 'react'
+import { Activity, ArrowDownRight, ArrowUpRight, Database, FileCheck2, LoaderCircle, Route, ShieldAlert } from 'lucide-react'
+import { Area, AreaChart, CartesianGrid, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts'
+import type { Coordinate, RouteForecast, StateForecast } from '@/lib/forecast'
+import { ForecastUploader } from './forecast-uploader'
+
+const NetworkMap = dynamic(() => import('./network-map').then((module) => module.NetworkMap), { ssr: false, loading: () => <div className="flex h-[420px] items-center justify-center rounded-xl border border-border bg-muted"><LoaderCircle className="size-6 animate-spin text-primary" /></div> })
+
+type DashboardData = { periods: number; states: StateForecast[]; routes: RouteForecast[]; coordinates: Coordinate[]; updatedAt: string }
+const fetcher = (url: string) => fetch(url).then(async (response) => { const data = await response.json(); if (!response.ok) throw new Error(data.error); return data })
+
+export function ForecastPanel() {
+  const [drug, setDrug] = useState('All')
+  const [selectedKey, setSelectedKey] = useState('')
+  const [uploaded, setUploaded] = useState<DashboardData | null>(null)
+  const [uploadLabel, setUploadLabel] = useState('')
+  const { data: sourceData, error, isLoading } = useSWR<DashboardData>('/api/forecast?periods=6', fetcher)
+  const data = uploaded ?? sourceData
+  const drugs = useMemo(() => ['All', ...new Set(data?.states.map((item) => item.drug_type) ?? [])], [data])
+  const filteredStates = useMemo(() => data?.states.filter((item) => drug === 'All' || item.drug_type === drug) ?? [], [data, drug])
+  const filteredRoutes = useMemo(() => data?.routes.filter((item) => drug === 'All' || item.drug_type === drug) ?? [], [data, drug])
+  const selected = filteredStates.find((item) => `${item.state}-${item.drug_type}` === selectedKey) ?? filteredStates[0]
+  const rising = filteredStates.filter((item) => item.trend === 'rising').length
+  const projected = selected?.forecast.at(-1)?.yhat ?? 0
+
+  if (!uploaded && isLoading) return <div className="panel flex min-h-96 items-center justify-center gap-3 text-sm text-muted-foreground"><LoaderCircle className="size-5 animate-spin text-primary" />Processing source records…</div>
+  if (!data) return <div role="alert" className="panel flex items-center gap-3 text-destructive"><ShieldAlert className="size-5" />{error?.message ?? 'Forecast data is unavailable.'}</div>
+
+  return <div className="flex flex-col gap-6">
+    <ForecastUploader periods={6} active={!!uploaded} onAnalyzed={(next, label) => { setUploaded(next); setUploadLabel(label); setDrug('All'); setSelectedKey('') }} onReset={() => { setUploaded(null); setUploadLabel(''); setDrug('All'); setSelectedKey('') }} />
+    {uploaded && <div className="flex items-center gap-2 rounded-xl border border-primary/40 bg-primary/10 px-4 py-3 text-sm text-primary"><FileCheck2 className="size-4 shrink-0" aria-hidden="true" /><span>Viewing projections from uploaded data{uploadLabel ? ` · ${uploadLabel}` : ''}. Reset above to return to bundled source records.</span></div>}
+    <div className="flex flex-col justify-between gap-4 md:flex-row md:items-end"><div><p className="eyebrow">Linear projection · six-month horizon</p><h2 className="mt-2 text-2xl font-semibold tracking-tight">Network forecast</h2><p className="mt-2 max-w-2xl text-sm leading-6 text-muted-foreground">Historical seizure observations and corridor volumes projected with ordinary least squares. Forecasts indicate direction, not certainty.</p></div><label className="flex min-w-48 flex-col gap-2 text-xs font-medium uppercase tracking-wider text-muted-foreground">Drug category<select value={drug} onChange={(event) => { setDrug(event.target.value); setSelectedKey('') }} className="rounded-lg border border-input bg-card px-3 py-2 text-sm normal-case tracking-normal text-foreground outline-none focus:border-primary">{drugs.map((item) => <option key={item}>{item}</option>)}</select></label></div>
+    <section className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4" aria-label="Forecast summary">
+      <Metric icon={Database} label="State / drug series" value={filteredStates.length.toString()} note="validated combinations" />
+      <Metric icon={Route} label="Active corridors" value={filteredRoutes.length.toString()} note="origin-destination pairs" />
+      <Metric icon={ArrowUpRight} label="Rising series" value={rising.toString()} note={`${Math.round((rising / Math.max(filteredStates.length, 1)) * 100)}% of selected scope`} />
+      <Metric icon={Activity} label="Highest route shift" value={`${filteredRoutes[0]?.pct_change > 0 ? '+' : ''}${filteredRoutes[0]?.pct_change ?? 0}%`} note={filteredRoutes[0] ? `${filteredRoutes[0].origin} → ${filteredRoutes[0].destination}` : 'No route data'} />
+    </section>
+    <div className="grid gap-6 xl:grid-cols-[minmax(0,1.55fr)_minmax(340px,.75fr)]"><section className="panel"><div className="mb-5 flex items-center justify-between gap-4"><div><p className="eyebrow">Geospatial view</p><h3 className="mt-2 text-lg font-semibold">Corridor intensity</h3></div><div className="flex gap-4 text-xs text-muted-foreground"><span className="flex items-center gap-2"><i className="size-2 rounded-full bg-primary" />Stable / falling</span><span className="flex items-center gap-2"><i className="size-2 rounded-full bg-accent" />Intensifying</span></div></div><NetworkMap coordinates={data.coordinates} routes={data.routes} states={data.states} drug={drug} /></section>
+      <section className="panel min-w-0"><div className="flex items-start justify-between gap-3"><div><p className="eyebrow">Selected series</p><h3 className="mt-2 text-lg font-semibold">{selected?.state ?? 'No state'}</h3><p className="text-sm text-muted-foreground">{selected?.drug_type}</p></div>{selected && <span className={`status ${selected.trend === 'rising' ? 'status-alert' : ''}`}>{selected.trend}</span>}</div><label className="mt-5 flex flex-col gap-2 text-xs text-muted-foreground">Series<select value={selected ? `${selected.state}-${selected.drug_type}` : ''} onChange={(event) => setSelectedKey(event.target.value)} className="rounded-lg border border-input bg-background px-3 py-2 text-sm text-foreground">{filteredStates.map((item) => <option key={`${item.state}-${item.drug_type}`} value={`${item.state}-${item.drug_type}`}>{item.state} · {item.drug_type}</option>)}</select></label><div className="mt-5 h-64" aria-label="Six-month forecast chart"><ResponsiveContainer width="100%" height="100%"><AreaChart data={selected?.forecast}><defs><linearGradient id="forecastFill" x1="0" y1="0" x2="0" y2="1"><stop offset="5%" stopColor="var(--primary)" stopOpacity={0.35}/><stop offset="95%" stopColor="var(--primary)" stopOpacity={0}/></linearGradient></defs><CartesianGrid stroke="var(--border)" vertical={false}/><XAxis dataKey="ds" tickFormatter={(value) => value.slice(5, 7)} stroke="var(--muted-foreground)" fontSize={11}/><YAxis stroke="var(--muted-foreground)" fontSize={11} width={38}/><Tooltip contentStyle={{ background: 'var(--popover)', border: '1px solid var(--border)', borderRadius: 10 }} /><Area type="monotone" dataKey="yhat" stroke="var(--primary)" fill="url(#forecastFill)" strokeWidth={2}/></AreaChart></ResponsiveContainer></div><div className="mt-4 flex items-end justify-between border-t border-border pt-4"><div><p className="text-xs text-muted-foreground">Latest observed</p><p className="mt-1 text-lg font-semibold">{selected?.latest_actual_kg ?? 0} kg</p></div><ArrowUpRight className="size-5 text-primary" /><div className="text-right"><p className="text-xs text-muted-foreground">Month six projection</p><p className="mt-1 text-lg font-semibold">{projected} kg</p></div></div></section></div>
+    <section className="panel overflow-hidden"><div className="mb-5"><p className="eyebrow">Priority queue</p><h3 className="mt-2 text-lg font-semibold">Corridor movement</h3></div><div className="overflow-x-auto"><table className="w-full min-w-3xl text-left text-sm"><thead className="border-b border-border text-xs uppercase tracking-wider text-muted-foreground"><tr><th className="pb-3 font-medium">Corridor</th><th className="pb-3 font-medium">Drug</th><th className="pb-3 font-medium">Via</th><th className="pb-3 text-right font-medium">Observed</th><th className="pb-3 text-right font-medium">Projected</th><th className="pb-3 text-right font-medium">Shift</th></tr></thead><tbody>{filteredRoutes.slice(0, 8).map((route) => <tr key={`${route.origin}-${route.destination}-${route.drug_type}`} className="border-b border-border/70 last:border-0"><td className="py-4 font-medium">{route.origin} <span className="text-muted-foreground">→</span> {route.destination}</td><td className="py-4 text-muted-foreground">{route.drug_type}</td><td className="py-4 text-muted-foreground">{route.via}</td><td className="py-4 text-right">{route.latest_actual_kg} kg</td><td className="py-4 text-right">{route.forecast_6mo_kg} kg</td><td className={`py-4 text-right font-medium ${route.pct_change > 5 ? 'text-accent' : 'text-primary'}`}>{route.pct_change > 0 ? <ArrowUpRight className="mr-1 inline size-4" /> : <ArrowDownRight className="mr-1 inline size-4" />}{route.pct_change}%</td></tr>)}</tbody></table></div></section>
+  </div>
+}
+
+function Metric({ icon: Icon, label, value, note }: { icon: typeof Database; label: string; value: string; note: string }) { return <div className="panel"><div className="flex items-center justify-between gap-4"><p className="text-xs font-medium uppercase tracking-wider text-muted-foreground">{label}</p><Icon className="size-4 text-primary" /></div><p className="mt-4 text-3xl font-semibold tracking-tight">{value}</p><p className="mt-2 truncate text-xs text-muted-foreground">{note}</p></div> }

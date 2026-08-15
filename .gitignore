@@ -1,0 +1,13 @@
+# Environment variables
+.env*.local
+
+# Common ignores
+node_modules
+.next/
+.DS_Store
+
+# Python analyzer backend
+analyzer/.venv/
+analyzer/__pycache__/
+analyzer/**/__pycache__/
+analyzer/.pytest_cache/

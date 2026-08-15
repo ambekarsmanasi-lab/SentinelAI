@@ -1,0 +1,505 @@
+date,state,drug_type,seizure_kg
+2024-01-01,Mizoram,ATS,7.5
+2024-02-01,Mizoram,ATS,8.23
+2024-03-01,Mizoram,ATS,9.91
+2024-04-01,Mizoram,ATS,12.64
+2024-05-01,Mizoram,ATS,13.25
+2024-06-01,Mizoram,ATS,13.87
+2024-07-01,Mizoram,ATS,16.67
+2024-08-01,Mizoram,ATS,18.49
+2024-09-01,Mizoram,ATS,18.83
+2024-10-01,Mizoram,ATS,20.38
+2024-11-01,Mizoram,ATS,20.72
+2024-12-01,Mizoram,ATS,21.06
+2025-01-01,Mizoram,ATS,22.25
+2025-02-01,Mizoram,ATS,20.86
+2025-03-01,Mizoram,ATS,19.69
+2025-04-01,Mizoram,ATS,19.91
+2025-05-01,Mizoram,ATS,19.6
+2025-06-01,Mizoram,ATS,20.87
+2025-07-01,Mizoram,ATS,20.68
+2025-08-01,Mizoram,ATS,19.89
+2025-09-01,Mizoram,ATS,22.55
+2025-10-01,Mizoram,ATS,23.18
+2025-11-01,Mizoram,ATS,24.16
+2025-12-01,Mizoram,ATS,23.35
+2024-01-01,Manipur,Heroin,9.62
+2024-02-01,Manipur,Heroin,10.42
+2024-03-01,Manipur,Heroin,8.95
+2024-04-01,Manipur,Heroin,10.22
+2024-05-01,Manipur,Heroin,9.74
+2024-06-01,Manipur,Heroin,9.82
+2024-07-01,Manipur,Heroin,9.33
+2024-08-01,Manipur,Heroin,13.27
+2024-09-01,Manipur,Heroin,13.84
+2024-10-01,Manipur,Heroin,12.54
+2024-11-01,Manipur,Heroin,14.62
+2024-12-01,Manipur,Heroin,13.02
+2025-01-01,Manipur,Heroin,14.0
+2025-02-01,Manipur,Heroin,11.07
+2025-03-01,Manipur,Heroin,9.28
+2025-04-01,Manipur,Heroin,10.24
+2025-05-01,Manipur,Heroin,12.17
+2025-06-01,Manipur,Heroin,13.07
+2025-07-01,Manipur,Heroin,13.47
+2025-08-01,Manipur,Heroin,13.52
+2025-09-01,Manipur,Heroin,11.46
+2025-10-01,Manipur,Heroin,10.77
+2025-11-01,Manipur,Heroin,10.54
+2025-12-01,Manipur,Heroin,13.04
+2024-01-01,Tripura,ATS,4.79
+2024-02-01,Tripura,ATS,3.48
+2024-03-01,Tripura,ATS,4.25
+2024-04-01,Tripura,ATS,4.32
+2024-05-01,Tripura,ATS,4.09
+2024-06-01,Tripura,ATS,5.15
+2024-07-01,Tripura,ATS,6.64
+2024-08-01,Tripura,ATS,8.02
+2024-09-01,Tripura,ATS,7.63
+2024-10-01,Tripura,ATS,7.77
+2024-11-01,Tripura,ATS,8.55
+2024-12-01,Tripura,ATS,9.97
+2025-01-01,Tripura,ATS,9.95
+2025-02-01,Tripura,ATS,10.21
+2025-03-01,Tripura,ATS,9.55
+2025-04-01,Tripura,ATS,8.81
+2025-05-01,Tripura,ATS,10.07
+2025-06-01,Tripura,ATS,11.88
+2025-07-01,Tripura,ATS,12.25
+2025-08-01,Tripura,ATS,13.71
+2025-09-01,Tripura,ATS,14.52
+2025-10-01,Tripura,ATS,14.32
+2025-11-01,Tripura,ATS,15.14
+2025-12-01,Tripura,ATS,17.12
+2024-01-01,Assam,Methamphetamine,5.5
+2024-02-01,Assam,Methamphetamine,8.09
+2024-03-01,Assam,Methamphetamine,5.23
+2024-04-01,Assam,Methamphetamine,6.85
+2024-05-01,Assam,Methamphetamine,7.51
+2024-06-01,Assam,Methamphetamine,7.67
+2024-07-01,Assam,Methamphetamine,8.34
+2024-08-01,Assam,Methamphetamine,6.31
+2024-09-01,Assam,Methamphetamine,6.57
+2024-10-01,Assam,Methamphetamine,7.59
+2024-11-01,Assam,Methamphetamine,10.06
+2024-12-01,Assam,Methamphetamine,9.94
+2025-01-01,Assam,Methamphetamine,9.44
+2025-02-01,Assam,Methamphetamine,9.33
+2025-03-01,Assam,Methamphetamine,11.07
+2025-04-01,Assam,Methamphetamine,12.05
+2025-05-01,Assam,Methamphetamine,11.91
+2025-06-01,Assam,Methamphetamine,13.13
+2025-07-01,Assam,Methamphetamine,13.81
+2025-08-01,Assam,Methamphetamine,15.61
+2025-09-01,Assam,Methamphetamine,15.25
+2025-10-01,Assam,Methamphetamine,15.38
+2025-11-01,Assam,Methamphetamine,15.42
+2025-12-01,Assam,Methamphetamine,14.06
+2024-01-01,Delhi,Methamphetamine,9.54
+2024-02-01,Delhi,Methamphetamine,11.04
+2024-03-01,Delhi,Methamphetamine,12.14
+2024-04-01,Delhi,Methamphetamine,12.89
+2024-05-01,Delhi,Methamphetamine,11.87
+2024-06-01,Delhi,Methamphetamine,12.34
+2024-07-01,Delhi,Methamphetamine,12.92
+2024-08-01,Delhi,Methamphetamine,12.82
+2024-09-01,Delhi,Methamphetamine,13.68
+2024-10-01,Delhi,Methamphetamine,15.38
+2024-11-01,Delhi,Methamphetamine,19.31
+2024-12-01,Delhi,Methamphetamine,20.68
+2025-01-01,Delhi,Methamphetamine,22.16
+2025-02-01,Delhi,Methamphetamine,23.15
+2025-03-01,Delhi,Methamphetamine,21.37
+2025-04-01,Delhi,Methamphetamine,22.43
+2025-05-01,Delhi,Methamphetamine,23.62
+2025-06-01,Delhi,Methamphetamine,28.42
+2025-07-01,Delhi,Methamphetamine,29.23
+2025-08-01,Delhi,Methamphetamine,30.78
+2025-09-01,Delhi,Methamphetamine,31.83
+2025-10-01,Delhi,Methamphetamine,31.18
+2025-11-01,Delhi,Methamphetamine,33.99
+2025-12-01,Delhi,Methamphetamine,36.22
+2024-01-01,Maharashtra,Cocaine,3.98
+2024-02-01,Maharashtra,Cocaine,3.61
+2024-03-01,Maharashtra,Cocaine,5.08
+2024-04-01,Maharashtra,Cocaine,4.31
+2024-05-01,Maharashtra,Cocaine,5.13
+2024-06-01,Maharashtra,Cocaine,7.23
+2024-07-01,Maharashtra,Cocaine,6.79
+2024-08-01,Maharashtra,Cocaine,6.68
+2024-09-01,Maharashtra,Cocaine,7.11
+2024-10-01,Maharashtra,Cocaine,7.06
+2024-11-01,Maharashtra,Cocaine,6.17
+2024-12-01,Maharashtra,Cocaine,6.57
+2025-01-01,Maharashtra,Cocaine,6.07
+2025-02-01,Maharashtra,Cocaine,6.8
+2025-03-01,Maharashtra,Cocaine,6.42
+2025-04-01,Maharashtra,Cocaine,8.01
+2025-05-01,Maharashtra,Cocaine,7.73
+2025-06-01,Maharashtra,Cocaine,7.82
+2025-07-01,Maharashtra,Cocaine,8.82
+2025-08-01,Maharashtra,Cocaine,8.19
+2025-09-01,Maharashtra,Cocaine,8.72
+2025-10-01,Maharashtra,Cocaine,10.12
+2025-11-01,Maharashtra,Cocaine,9.18
+2025-12-01,Maharashtra,Cocaine,9.68
+2024-01-01,Kerala,MDMA,4.79
+2024-02-01,Kerala,MDMA,6.15
+2024-03-01,Kerala,MDMA,5.29
+2024-04-01,Kerala,MDMA,4.33
+2024-05-01,Kerala,MDMA,5.41
+2024-06-01,Kerala,MDMA,6.23
+2024-07-01,Kerala,MDMA,7.01
+2024-08-01,Kerala,MDMA,7.89
+2024-09-01,Kerala,MDMA,7.64
+2024-10-01,Kerala,MDMA,8.4
+2024-11-01,Kerala,MDMA,9.22
+2024-12-01,Kerala,MDMA,8.93
+2025-01-01,Kerala,MDMA,11.49
+2025-02-01,Kerala,MDMA,12.51
+2025-03-01,Kerala,MDMA,11.7
+2025-04-01,Kerala,MDMA,12.92
+2025-05-01,Kerala,MDMA,12.35
+2025-06-01,Kerala,MDMA,13.71
+2025-07-01,Kerala,MDMA,15.49
+2025-08-01,Kerala,MDMA,15.08
+2025-09-01,Kerala,MDMA,16.64
+2025-10-01,Kerala,MDMA,17.6
+2025-11-01,Kerala,MDMA,19.0
+2025-12-01,Kerala,MDMA,21.59
+2024-01-01,Karnataka,MDMA,5.17
+2024-02-01,Karnataka,MDMA,4.84
+2024-03-01,Karnataka,MDMA,4.37
+2024-04-01,Karnataka,MDMA,3.98
+2024-05-01,Karnataka,MDMA,4.32
+2024-06-01,Karnataka,MDMA,5.08
+2024-07-01,Karnataka,MDMA,5.78
+2024-08-01,Karnataka,MDMA,7.02
+2024-09-01,Karnataka,MDMA,7.46
+2024-10-01,Karnataka,MDMA,9.33
+2024-11-01,Karnataka,MDMA,9.49
+2024-12-01,Karnataka,MDMA,12.63
+2025-01-01,Karnataka,MDMA,13.67
+2025-02-01,Karnataka,MDMA,13.23
+2025-03-01,Karnataka,MDMA,12.58
+2025-04-01,Karnataka,MDMA,13.49
+2025-05-01,Karnataka,MDMA,13.68
+2025-06-01,Karnataka,MDMA,14.82
+2025-07-01,Karnataka,MDMA,15.71
+2025-08-01,Karnataka,MDMA,16.06
+2025-09-01,Karnataka,MDMA,15.63
+2025-10-01,Karnataka,MDMA,14.53
+2025-11-01,Karnataka,MDMA,14.51
+2025-12-01,Karnataka,MDMA,15.78
+2024-01-01,Tamil Nadu,Cocaine,2.45
+2024-02-01,Tamil Nadu,Cocaine,1.88
+2024-03-01,Tamil Nadu,Cocaine,2.3
+2024-04-01,Tamil Nadu,Cocaine,2.87
+2024-05-01,Tamil Nadu,Cocaine,2.55
+2024-06-01,Tamil Nadu,Cocaine,2.96
+2024-07-01,Tamil Nadu,Cocaine,3.3
+2024-08-01,Tamil Nadu,Cocaine,2.8
+2024-09-01,Tamil Nadu,Cocaine,3.35
+2024-10-01,Tamil Nadu,Cocaine,4.04
+2024-11-01,Tamil Nadu,Cocaine,5.1
+2024-12-01,Tamil Nadu,Cocaine,6.14
+2025-01-01,Tamil Nadu,Cocaine,5.47
+2025-02-01,Tamil Nadu,Cocaine,5.12
+2025-03-01,Tamil Nadu,Cocaine,5.78
+2025-04-01,Tamil Nadu,Cocaine,6.44
+2025-05-01,Tamil Nadu,Cocaine,7.1
+2025-06-01,Tamil Nadu,Cocaine,10.09
+2025-07-01,Tamil Nadu,Cocaine,10.79
+2025-08-01,Tamil Nadu,Cocaine,11.89
+2025-09-01,Tamil Nadu,Cocaine,12.86
+2025-10-01,Tamil Nadu,Cocaine,13.61
+2025-11-01,Tamil Nadu,Cocaine,13.69
+2025-12-01,Tamil Nadu,Cocaine,14.52
+2024-01-01,Rajasthan,Opium,37.4
+2024-02-01,Rajasthan,Opium,36.67
+2024-03-01,Rajasthan,Opium,35.07
+2024-04-01,Rajasthan,Opium,35.45
+2024-05-01,Rajasthan,Opium,43.66
+2024-06-01,Rajasthan,Opium,37.22
+2024-07-01,Rajasthan,Opium,39.72
+2024-08-01,Rajasthan,Opium,34.18
+2024-09-01,Rajasthan,Opium,32.63
+2024-10-01,Rajasthan,Opium,36.54
+2024-11-01,Rajasthan,Opium,36.86
+2024-12-01,Rajasthan,Opium,33.19
+2025-01-01,Rajasthan,Opium,30.79
+2025-02-01,Rajasthan,Opium,33.26
+2025-03-01,Rajasthan,Opium,30.81
+2025-04-01,Rajasthan,Opium,31.67
+2025-05-01,Rajasthan,Opium,31.93
+2025-06-01,Rajasthan,Opium,29.75
+2025-07-01,Rajasthan,Opium,37.35
+2025-08-01,Rajasthan,Opium,39.67
+2025-09-01,Rajasthan,Opium,32.68
+2025-10-01,Rajasthan,Opium,33.43
+2025-11-01,Rajasthan,Opium,31.22
+2025-12-01,Rajasthan,Opium,34.3
+2024-01-01,Madhya Pradesh,Opium,32.67
+2024-02-01,Madhya Pradesh,Opium,32.38
+2024-03-01,Madhya Pradesh,Opium,33.94
+2024-04-01,Madhya Pradesh,Opium,36.59
+2024-05-01,Madhya Pradesh,Opium,33.04
+2024-06-01,Madhya Pradesh,Opium,32.09
+2024-07-01,Madhya Pradesh,Opium,30.71
+2024-08-01,Madhya Pradesh,Opium,28.8
+2024-09-01,Madhya Pradesh,Opium,34.15
+2024-10-01,Madhya Pradesh,Opium,35.41
+2024-11-01,Madhya Pradesh,Opium,31.68
+2024-12-01,Madhya Pradesh,Opium,34.48
+2025-01-01,Madhya Pradesh,Opium,40.9
+2025-02-01,Madhya Pradesh,Opium,44.05
+2025-03-01,Madhya Pradesh,Opium,39.54
+2025-04-01,Madhya Pradesh,Opium,38.14
+2025-05-01,Madhya Pradesh,Opium,41.99
+2025-06-01,Madhya Pradesh,Opium,39.91
+2025-07-01,Madhya Pradesh,Opium,41.3
+2025-08-01,Madhya Pradesh,Opium,43.67
+2025-09-01,Madhya Pradesh,Opium,40.94
+2025-10-01,Madhya Pradesh,Opium,40.81
+2025-11-01,Madhya Pradesh,Opium,31.14
+2025-12-01,Madhya Pradesh,Opium,28.11
+2024-01-01,Uttar Pradesh,Opium,24.22
+2024-02-01,Uttar Pradesh,Opium,20.95
+2024-03-01,Uttar Pradesh,Opium,24.88
+2024-04-01,Uttar Pradesh,Opium,21.15
+2024-05-01,Uttar Pradesh,Opium,19.9
+2024-06-01,Uttar Pradesh,Opium,20.08
+2024-07-01,Uttar Pradesh,Opium,23.53
+2024-08-01,Uttar Pradesh,Opium,19.8
+2024-09-01,Uttar Pradesh,Opium,22.55
+2024-10-01,Uttar Pradesh,Opium,22.43
+2024-11-01,Uttar Pradesh,Opium,19.82
+2024-12-01,Uttar Pradesh,Opium,20.83
+2025-01-01,Uttar Pradesh,Opium,21.18
+2025-02-01,Uttar Pradesh,Opium,19.53
+2025-03-01,Uttar Pradesh,Opium,19.55
+2025-04-01,Uttar Pradesh,Opium,18.44
+2025-05-01,Uttar Pradesh,Opium,18.57
+2025-06-01,Uttar Pradesh,Opium,20.08
+2025-07-01,Uttar Pradesh,Opium,23.89
+2025-08-01,Uttar Pradesh,Opium,20.65
+2025-09-01,Uttar Pradesh,Opium,25.83
+2025-10-01,Uttar Pradesh,Opium,20.8
+2025-11-01,Uttar Pradesh,Opium,20.27
+2025-12-01,Uttar Pradesh,Opium,21.59
+2024-01-01,Odisha,Cannabis,51.82
+2024-02-01,Odisha,Cannabis,50.03
+2024-03-01,Odisha,Cannabis,49.9
+2024-04-01,Odisha,Cannabis,48.63
+2024-05-01,Odisha,Cannabis,46.97
+2024-06-01,Odisha,Cannabis,51.07
+2024-07-01,Odisha,Cannabis,53.2
+2024-08-01,Odisha,Cannabis,51.13
+2024-09-01,Odisha,Cannabis,55.42
+2024-10-01,Odisha,Cannabis,57.35
+2024-11-01,Odisha,Cannabis,61.31
+2024-12-01,Odisha,Cannabis,64.52
+2025-01-01,Odisha,Cannabis,61.91
+2025-02-01,Odisha,Cannabis,60.37
+2025-03-01,Odisha,Cannabis,64.06
+2025-04-01,Odisha,Cannabis,67.2
+2025-05-01,Odisha,Cannabis,67.81
+2025-06-01,Odisha,Cannabis,68.98
+2025-07-01,Odisha,Cannabis,74.79
+2025-08-01,Odisha,Cannabis,73.13
+2025-09-01,Odisha,Cannabis,76.02
+2025-10-01,Odisha,Cannabis,75.91
+2025-11-01,Odisha,Cannabis,75.74
+2025-12-01,Odisha,Cannabis,80.83
+2024-01-01,Andhra Pradesh,Cannabis,48.69
+2024-02-01,Andhra Pradesh,Cannabis,52.33
+2024-03-01,Andhra Pradesh,Cannabis,57.84
+2024-04-01,Andhra Pradesh,Cannabis,58.47
+2024-05-01,Andhra Pradesh,Cannabis,61.61
+2024-06-01,Andhra Pradesh,Cannabis,60.98
+2024-07-01,Andhra Pradesh,Cannabis,62.76
+2024-08-01,Andhra Pradesh,Cannabis,62.82
+2024-09-01,Andhra Pradesh,Cannabis,63.74
+2024-10-01,Andhra Pradesh,Cannabis,66.55
+2024-11-01,Andhra Pradesh,Cannabis,63.99
+2024-12-01,Andhra Pradesh,Cannabis,72.49
+2025-01-01,Andhra Pradesh,Cannabis,69.22
+2025-02-01,Andhra Pradesh,Cannabis,65.15
+2025-03-01,Andhra Pradesh,Cannabis,70.1
+2025-04-01,Andhra Pradesh,Cannabis,73.66
+2025-05-01,Andhra Pradesh,Cannabis,76.58
+2025-06-01,Andhra Pradesh,Cannabis,79.52
+2025-07-01,Andhra Pradesh,Cannabis,80.03
+2025-08-01,Andhra Pradesh,Cannabis,77.17
+2025-09-01,Andhra Pradesh,Cannabis,78.0
+2025-10-01,Andhra Pradesh,Cannabis,75.98
+2025-11-01,Andhra Pradesh,Cannabis,80.24
+2025-12-01,Andhra Pradesh,Cannabis,80.23
+2024-01-01,Himachal Pradesh,Hashish,13.84
+2024-02-01,Himachal Pradesh,Hashish,13.44
+2024-03-01,Himachal Pradesh,Hashish,14.14
+2024-04-01,Himachal Pradesh,Hashish,13.37
+2024-05-01,Himachal Pradesh,Hashish,12.22
+2024-06-01,Himachal Pradesh,Hashish,12.67
+2024-07-01,Himachal Pradesh,Hashish,13.11
+2024-08-01,Himachal Pradesh,Hashish,12.43
+2024-09-01,Himachal Pradesh,Hashish,11.81
+2024-10-01,Himachal Pradesh,Hashish,12.23
+2024-11-01,Himachal Pradesh,Hashish,10.14
+2024-12-01,Himachal Pradesh,Hashish,8.11
+2025-01-01,Himachal Pradesh,Hashish,7.11
+2025-02-01,Himachal Pradesh,Hashish,6.87
+2025-03-01,Himachal Pradesh,Hashish,7.42
+2025-04-01,Himachal Pradesh,Hashish,9.71
+2025-05-01,Himachal Pradesh,Hashish,11.08
+2025-06-01,Himachal Pradesh,Hashish,10.92
+2025-07-01,Himachal Pradesh,Hashish,10.97
+2025-08-01,Himachal Pradesh,Hashish,9.55
+2025-09-01,Himachal Pradesh,Hashish,9.6
+2025-10-01,Himachal Pradesh,Hashish,9.25
+2025-11-01,Himachal Pradesh,Hashish,9.81
+2025-12-01,Himachal Pradesh,Hashish,8.65
+2024-01-01,Punjab,Heroin,47.13
+2024-02-01,Punjab,Heroin,53.31
+2024-03-01,Punjab,Heroin,52.92
+2024-04-01,Punjab,Heroin,54.58
+2024-05-01,Punjab,Heroin,57.39
+2024-06-01,Punjab,Heroin,55.84
+2024-07-01,Punjab,Heroin,56.78
+2024-08-01,Punjab,Heroin,56.88
+2024-09-01,Punjab,Heroin,57.32
+2024-10-01,Punjab,Heroin,54.28
+2024-11-01,Punjab,Heroin,54.43
+2024-12-01,Punjab,Heroin,56.47
+2025-01-01,Punjab,Heroin,62.33
+2025-02-01,Punjab,Heroin,66.21
+2025-03-01,Punjab,Heroin,74.88
+2025-04-01,Punjab,Heroin,71.86
+2025-05-01,Punjab,Heroin,75.4
+2025-06-01,Punjab,Heroin,76.18
+2025-07-01,Punjab,Heroin,84.99
+2025-08-01,Punjab,Heroin,81.8
+2025-09-01,Punjab,Heroin,78.5
+2025-10-01,Punjab,Heroin,76.15
+2025-11-01,Punjab,Heroin,67.7
+2025-12-01,Punjab,Heroin,65.65
+2024-01-01,Gujarat,Heroin,56.3
+2024-02-01,Gujarat,Heroin,57.16
+2024-03-01,Gujarat,Heroin,58.97
+2024-04-01,Gujarat,Heroin,68.45
+2024-05-01,Gujarat,Heroin,73.3
+2024-06-01,Gujarat,Heroin,70.51
+2024-07-01,Gujarat,Heroin,66.12
+2024-08-01,Gujarat,Heroin,68.68
+2024-09-01,Gujarat,Heroin,62.18
+2024-10-01,Gujarat,Heroin,71.44
+2024-11-01,Gujarat,Heroin,77.43
+2024-12-01,Gujarat,Heroin,75.19
+2025-01-01,Gujarat,Heroin,66.72
+2025-02-01,Gujarat,Heroin,73.59
+2025-03-01,Gujarat,Heroin,73.12
+2025-04-01,Gujarat,Heroin,79.41
+2025-05-01,Gujarat,Heroin,71.54
+2025-06-01,Gujarat,Heroin,68.64
+2025-07-01,Gujarat,Heroin,68.77
+2025-08-01,Gujarat,Heroin,69.1
+2025-09-01,Gujarat,Heroin,66.95
+2025-10-01,Gujarat,Heroin,70.16
+2025-11-01,Gujarat,Heroin,64.93
+2025-12-01,Gujarat,Heroin,64.31
+2024-01-01,Haryana,Heroin,38.41
+2024-02-01,Haryana,Heroin,40.09
+2024-03-01,Haryana,Heroin,42.4
+2024-04-01,Haryana,Heroin,38.83
+2024-05-01,Haryana,Heroin,33.95
+2024-06-01,Haryana,Heroin,38.07
+2024-07-01,Haryana,Heroin,39.16
+2024-08-01,Haryana,Heroin,36.8
+2024-09-01,Haryana,Heroin,41.79
+2024-10-01,Haryana,Heroin,42.19
+2024-11-01,Haryana,Heroin,45.99
+2024-12-01,Haryana,Heroin,46.24
+2025-01-01,Haryana,Heroin,52.87
+2025-02-01,Haryana,Heroin,58.51
+2025-03-01,Haryana,Heroin,57.75
+2025-04-01,Haryana,Heroin,60.88
+2025-05-01,Haryana,Heroin,62.98
+2025-06-01,Haryana,Heroin,67.39
+2025-07-01,Haryana,Heroin,64.33
+2025-08-01,Haryana,Heroin,66.56
+2025-09-01,Haryana,Heroin,69.97
+2025-10-01,Haryana,Heroin,64.38
+2025-11-01,Haryana,Heroin,60.62
+2025-12-01,Haryana,Heroin,54.12
+2024-01-01,Jammu and Kashmir,Heroin,11.87
+2024-02-01,Jammu and Kashmir,Heroin,13.51
+2024-03-01,Jammu and Kashmir,Heroin,16.56
+2024-04-01,Jammu and Kashmir,Heroin,17.04
+2024-05-01,Jammu and Kashmir,Heroin,20.33
+2024-06-01,Jammu and Kashmir,Heroin,18.19
+2024-07-01,Jammu and Kashmir,Heroin,15.48
+2024-08-01,Jammu and Kashmir,Heroin,15.73
+2024-09-01,Jammu and Kashmir,Heroin,16.77
+2024-10-01,Jammu and Kashmir,Heroin,17.06
+2024-11-01,Jammu and Kashmir,Heroin,13.69
+2024-12-01,Jammu and Kashmir,Heroin,13.88
+2025-01-01,Jammu and Kashmir,Heroin,11.88
+2025-02-01,Jammu and Kashmir,Heroin,13.43
+2025-03-01,Jammu and Kashmir,Heroin,14.44
+2025-04-01,Jammu and Kashmir,Heroin,13.1
+2025-05-01,Jammu and Kashmir,Heroin,12.53
+2025-06-01,Jammu and Kashmir,Heroin,10.97
+2025-07-01,Jammu and Kashmir,Heroin,11.21
+2025-08-01,Jammu and Kashmir,Heroin,13.28
+2025-09-01,Jammu and Kashmir,Heroin,11.85
+2025-10-01,Jammu and Kashmir,Heroin,13.11
+2025-11-01,Jammu and Kashmir,Heroin,12.51
+2025-12-01,Jammu and Kashmir,Heroin,11.43
+2024-01-01,West Bengal,Heroin,9.23
+2024-02-01,West Bengal,Heroin,7.97
+2024-03-01,West Bengal,Heroin,7.49
+2024-04-01,West Bengal,Heroin,5.97
+2024-05-01,West Bengal,Heroin,9.51
+2024-06-01,West Bengal,Heroin,9.97
+2024-07-01,West Bengal,Heroin,9.25
+2024-08-01,West Bengal,Heroin,9.99
+2024-09-01,West Bengal,Heroin,10.21
+2024-10-01,West Bengal,Heroin,10.26
+2024-11-01,West Bengal,Heroin,11.64
+2024-12-01,West Bengal,Heroin,13.25
+2025-01-01,West Bengal,Heroin,12.81
+2025-02-01,West Bengal,Heroin,12.28
+2025-03-01,West Bengal,Heroin,12.24
+2025-04-01,West Bengal,Heroin,8.96
+2025-05-01,West Bengal,Heroin,6.94
+2025-06-01,West Bengal,Heroin,9.52
+2025-07-01,West Bengal,Heroin,12.56
+2025-08-01,West Bengal,Heroin,12.56
+2025-09-01,West Bengal,Heroin,13.88
+2025-10-01,West Bengal,Heroin,14.78
+2025-11-01,West Bengal,Heroin,20.1
+2025-12-01,West Bengal,Heroin,22.3
+2024-01-01,Punjab,ATS,6.0
+2024-02-01,Punjab,ATS,5.0
+2024-03-01,Punjab,ATS,3.22
+2024-04-01,Punjab,ATS,3.62
+2024-05-01,Punjab,ATS,2.86
+2024-06-01,Punjab,ATS,1.3
+2024-07-01,Punjab,ATS,0.68
+2024-08-01,Punjab,ATS,0.5
+2024-09-01,Punjab,ATS,2.67
+2024-10-01,Punjab,ATS,3.88
+2024-11-01,Punjab,ATS,4.02
+2024-12-01,Punjab,ATS,5.95
+2025-01-01,Punjab,ATS,6.19
+2025-02-01,Punjab,ATS,5.31
+2025-03-01,Punjab,ATS,7.29
+2025-04-01,Punjab,ATS,8.08
+2025-05-01,Punjab,ATS,6.99
+2025-06-01,Punjab,ATS,6.91
+2025-07-01,Punjab,ATS,6.01
+2025-08-01,Punjab,ATS,4.5
+2025-09-01,Punjab,ATS,5.76
+2025-10-01,Punjab,ATS,8.2
+2025-11-01,Punjab,ATS,6.67
+2025-12-01,Punjab,ATS,7.5

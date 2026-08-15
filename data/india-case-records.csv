@@ -1,0 +1,301 @@
+case_id,date,text,location,district,lat,lon
+400073,2026-08-13,"Possession for Sale, NDPS Act Section 20",Majestic,Bengaluru Central,12.97392954,77.57187943
+400075,2026-08-13,"Possession of Cannabis, NDPS Act Section 20",ITO,Central Delhi,28.62652834,77.24225271
+400111,2026-08-13,"Possession of Heroin, NDPS Act Section 21",Shivajinagar,Bengaluru Central,12.98760176,77.60630247
+400164,2026-08-13,"Consumption of Narcotic Drug, NDPS Act Section 27",Mundra Port Belt,Kutch,22.84063137,69.72386845
+400182,2026-08-13,"Cultivation of Cannabis, NDPS Act Section 20",Amritsar Border Belt,Amritsar Rural,31.63231403,74.87044079
+400208,2026-08-13,"Possession of Cannabis, NDPS Act Section 20",Imphal Market,Imphal West,24.81702303,93.93947249
+400022,2026-08-12,"Possession of Cannabis, NDPS Act Section 20",Imphal Market,Imphal West,24.81717469,93.93962647
+400024,2026-08-12,"Possession of Cannabis, NDPS Act Section 20",Kurla,Mumbai East,19.071561,72.88054895
+400046,2026-08-12,"Possession of Cannabis, NDPS Act Section 20",Mundra Port Belt,Kutch,22.83732878,69.72078025
+400089,2026-08-12,"Illicit Transport of Contraband, NDPS Act Section 23",Surat Textile Belt,Surat,21.17312735,72.83167271
+400097,2026-08-12,"Consumption of Narcotic Drug, NDPS Act Section 27",Amritsar Border Belt,Amritsar Rural,31.63279168,74.87163992
+400119,2026-08-12,"Cultivation of Cannabis, NDPS Act Section 20",ITO,Central Delhi,28.62712895,77.23955011
+400121,2026-08-12,"Illicit Transport of Contraband, NDPS Act Section 23",Aizawl Bazar,Aizawl,23.72703147,92.71914899
+400258,2026-08-12,"Trafficking of Synthetic Drugs, NDPS Act Section 22",Tarn Taran,Tarn Taran,31.45286096,74.92497086
+400285,2026-08-12,"Possession of Heroin, NDPS Act Section 21",Byculla,Mumbai Central,18.97406881,72.82719765
+400012,2026-08-11,"Cultivation of Cannabis, NDPS Act Section 20",Karol Bagh,New Delhi,28.65112109,77.18915704
+400039,2026-08-11,"Possession of Cannabis, NDPS Act Section 20",Amritsar Border Belt,Amritsar Rural,31.63354147,74.87210215
+400058,2026-08-11,"Possession of Psychotropic Substances, NDPS Act Section 22",Shivajinagar,Bengaluru Central,12.98612898,77.60700567
+400173,2026-08-11,"Consumption of Narcotic Drug, NDPS Act Section 27",Amritsar Border Belt,Amritsar Rural,31.63358412,74.87076518
+400174,2026-08-11,"Consumption of Narcotic Drug, NDPS Act Section 27",Karol Bagh,New Delhi,28.6499199,77.18837381
+400251,2026-08-11,"Possession of Heroin, NDPS Act Section 21",Kurla,Mumbai East,19.0746658,72.88462426
+400255,2026-08-11,"Cultivation of Cannabis, NDPS Act Section 20",Kurla,Mumbai East,19.07314778,72.88191939
+400018,2026-08-10,"Cultivation of Cannabis, NDPS Act Section 20",Paharganj,New Delhi,28.64327977,77.21706821
+400100,2026-08-10,"Consumption of Narcotic Drug, NDPS Act Section 27",Paharganj,New Delhi,28.64768433,77.21690474
+400117,2026-08-10,"Illicit Transport of Contraband, NDPS Act Section 23",Byculla,Mumbai Central,18.97367357,72.82550481
+400160,2026-08-10,"Cultivation of Cannabis, NDPS Act Section 20",Surat Textile Belt,Surat,21.16880304,72.82811539
+400222,2026-08-10,"Conspiracy to Traffic, NDPS Act Section 29",Majestic,Bengaluru Central,12.9771446,77.57314333
+400227,2026-08-10,"Possession for Sale, NDPS Act Section 20",KR Market,Bengaluru South,12.96134446,77.57596982
+400244,2026-08-10,"Illicit Transport of Contraband, NDPS Act Section 23",Imphal Market,Imphal West,24.81852667,93.93835926
+400248,2026-08-10,"Possession of Heroin, NDPS Act Section 21",Amritsar Border Belt,Amritsar Rural,31.63599018,74.86976039
+400034,2026-08-09,"Possession of Cannabis, NDPS Act Section 20",Kurla,Mumbai East,19.07128743,72.87998416
+400047,2026-08-09,"Illicit Transport of Contraband, NDPS Act Section 23",Colaba,Mumbai South,18.90818785,72.81204299
+400123,2026-08-09,"Illicit Transport of Contraband, NDPS Act Section 23",Nizamuddin,South Delhi,28.59213724,77.25118933
+400143,2026-08-09,"Cultivation of Cannabis, NDPS Act Section 20",Imphal Market,Imphal West,24.81813207,93.9379984
+400234,2026-08-09,"Possession of Psychotropic Substances, NDPS Act Section 22",Karol Bagh,New Delhi,28.64967511,77.19109549
+400252,2026-08-09,"Illicit Transport of Contraband, NDPS Act Section 23",Karol Bagh,New Delhi,28.64913485,77.19214573
+400267,2026-08-09,"Consumption of Narcotic Drug, NDPS Act Section 27",Imphal Market,Imphal West,24.81677008,93.93549063
+400269,2026-08-09,"Possession of Heroin, NDPS Act Section 21",Mundra Port Belt,Kutch,22.8416447,69.72232724
+400279,2026-08-09,"Illicit Transport of Contraband, NDPS Act Section 23",Imphal Market,Imphal West,24.81437684,93.93882013
+400282,2026-08-09,"Conspiracy to Traffic, NDPS Act Section 29",Byculla,Mumbai Central,18.97514091,72.82496362
+400033,2026-08-08,"Illicit Transport of Contraband, NDPS Act Section 23",Tarn Taran,Tarn Taran,31.4549709,74.92689927
+400091,2026-08-08,"Cultivation of Cannabis, NDPS Act Section 20",Mundra Port Belt,Kutch,22.83910042,69.72351066
+400146,2026-08-08,"Conspiracy to Traffic, NDPS Act Section 29",Colaba,Mumbai South,18.90827865,72.81275114
+400152,2026-08-08,"Illicit Transport of Contraband, NDPS Act Section 23",Colaba,Mumbai South,18.9048255,72.81387068
+400243,2026-08-08,"Trafficking of Synthetic Drugs, NDPS Act Section 22",Paharganj,New Delhi,28.64636129,77.21763305
+400263,2026-08-08,"Trafficking of Synthetic Drugs, NDPS Act Section 22",Paharganj,New Delhi,28.64277348,77.21868807
+400275,2026-08-08,"Trafficking of Synthetic Drugs, NDPS Act Section 22",Shivajinagar,Bengaluru Central,12.98800438,77.60553473
+400002,2026-08-07,"Possession of Heroin, NDPS Act Section 21",Kurla,Mumbai East,19.0738602,72.88495308
+400005,2026-08-07,"Trafficking of Synthetic Drugs, NDPS Act Section 22",Majestic,Bengaluru Central,12.97855658,77.56833899
+400031,2026-08-07,"Conspiracy to Traffic, NDPS Act Section 29",Mundra Port Belt,Kutch,22.84208109,69.71999076
+400038,2026-08-07,"Possession of Heroin, NDPS Act Section 21",Mundra Port Belt,Kutch,22.84124498,69.72014246
+400077,2026-08-07,"Cultivation of Cannabis, NDPS Act Section 20",Kurla,Mumbai East,19.07411853,72.88140193
+400177,2026-08-07,"Cultivation of Cannabis, NDPS Act Section 20",Karol Bagh,New Delhi,28.64934317,77.19357141
+400196,2026-08-07,"Illicit Transport of Contraband, NDPS Act Section 23",Paharganj,New Delhi,28.64711248,77.21762953
+400233,2026-08-07,"Illicit Transport of Contraband, NDPS Act Section 23",Majestic,Bengaluru Central,12.97543668,77.56901991
+400236,2026-08-07,"Consumption of Narcotic Drug, NDPS Act Section 27",Imphal Market,Imphal West,24.81952697,93.93897266
+400262,2026-08-07,"Trafficking of Synthetic Drugs, NDPS Act Section 22",Surat Textile Belt,Surat,21.16742648,72.83012059
+400011,2026-08-06,"Illicit Transport of Contraband, NDPS Act Section 23",Nizamuddin,South Delhi,28.5954989,77.24998076
+400023,2026-08-06,"Cultivation of Cannabis, NDPS Act Section 20",Kurla,Mumbai East,19.07389026,72.88282182
+400076,2026-08-06,"Possession for Sale, NDPS Act Section 20",ITO,Central Delhi,28.62718533,77.23841984
+400144,2026-08-06,"Consumption of Narcotic Drug, NDPS Act Section 27",Mundra Port Belt,Kutch,22.83902655,69.72258822
+400165,2026-08-06,"Conspiracy to Traffic, NDPS Act Section 29",Paharganj,New Delhi,28.64477197,77.21392212
+400188,2026-08-06,"Consumption of Narcotic Drug, NDPS Act Section 27",Byculla,Mumbai Central,18.97284454,72.828599
+400190,2026-08-06,"Consumption of Narcotic Drug, NDPS Act Section 27",Amritsar Border Belt,Amritsar Rural,31.63503697,74.87333404
+400198,2026-08-06,"Conspiracy to Traffic, NDPS Act Section 29",Amritsar Border Belt,Amritsar Rural,31.63159613,74.87341408
+400272,2026-08-06,"Consumption of Narcotic Drug, NDPS Act Section 27",Amritsar Border Belt,Amritsar Rural,31.63658283,74.87178938
+400032,2026-08-05,"Possession of Psychotropic Substances, NDPS Act Section 22",ITO,Central Delhi,28.63057348,77.24253159
+400055,2026-08-05,"Conspiracy to Traffic, NDPS Act Section 29",Nizamuddin,South Delhi,28.59251716,77.24864648
+400127,2026-08-05,"Conspiracy to Traffic, NDPS Act Section 29",Mundra Port Belt,Kutch,22.838059,69.72253752
+400145,2026-08-05,"Possession of Cannabis, NDPS Act Section 20",Majestic,Bengaluru Central,12.97385519,77.56967355
+400179,2026-08-05,"Cultivation of Cannabis, NDPS Act Section 20",Nizamuddin,South Delhi,28.59258819,77.24985375
+400192,2026-08-05,"Illicit Transport of Contraband, NDPS Act Section 23",Nizamuddin,South Delhi,28.59418591,77.25151242
+400215,2026-08-05,"Possession for Sale, NDPS Act Section 20",Aizawl Bazar,Aizawl,23.72847768,92.71647529
+400294,2026-08-05,"Trafficking of Synthetic Drugs, NDPS Act Section 22",Aizawl Bazar,Aizawl,23.72457356,92.71821472
+400009,2026-08-04,"Possession for Sale, NDPS Act Section 20",Shivajinagar,Bengaluru Central,12.98747643,77.60641112
+400049,2026-08-04,"Possession of Heroin, NDPS Act Section 21",Byculla,Mumbai Central,18.97605128,72.82421122
+400125,2026-08-04,"Possession of Heroin, NDPS Act Section 21",Imphal Market,Imphal West,24.8156255,93.93530842
+400162,2026-08-04,"Possession of Psychotropic Substances, NDPS Act Section 22",Tarn Taran,Tarn Taran,31.45173207,74.92493066
+400213,2026-08-04,"Conspiracy to Traffic, NDPS Act Section 29",Aizawl Bazar,Aizawl,23.72469507,92.71881068
+400265,2026-08-04,"Possession of Psychotropic Substances, NDPS Act Section 22",Shivajinagar,Bengaluru Central,12.98701435,77.6074028
+400154,2026-08-03,"Possession of Psychotropic Substances, NDPS Act Section 22",Mundra Port Belt,Kutch,22.83712856,69.72483888
+400158,2026-08-03,"Conspiracy to Traffic, NDPS Act Section 29",Imphal Market,Imphal West,24.81730759,93.93610152
+400286,2026-08-03,"Possession for Sale, NDPS Act Section 20",KR Market,Bengaluru South,12.96120046,77.57621379
+400056,2026-08-02,"Cultivation of Cannabis, NDPS Act Section 20",Surat Textile Belt,Surat,21.16724694,72.83300262
+400081,2026-08-02,"Trafficking of Synthetic Drugs, NDPS Act Section 22",Imphal Market,Imphal West,24.81805376,93.93686704
+400106,2026-08-02,"Illicit Transport of Contraband, NDPS Act Section 23",Dharavi,Mumbai South,19.04372801,72.85543127
+400207,2026-08-02,"Conspiracy to Traffic, NDPS Act Section 29",Byculla,Mumbai Central,18.97485748,72.8274681
+400218,2026-08-02,"Possession for Sale, NDPS Act Section 20",Colaba,Mumbai South,18.90721879,72.81506952
+400228,2026-08-02,"Possession of Cannabis, NDPS Act Section 20",Byculla,Mumbai Central,18.97730005,72.82373348
+400003,2026-08-01,"Conspiracy to Traffic, NDPS Act Section 29",Colaba,Mumbai South,18.90387878,72.81301183
+400061,2026-08-01,"Consumption of Narcotic Drug, NDPS Act Section 27",Majestic,Bengaluru Central,12.97466949,77.57095101
+400062,2026-08-01,"Trafficking of Synthetic Drugs, NDPS Act Section 22",Kurla,Mumbai East,19.07025146,72.88489864
+400149,2026-08-01,"Consumption of Narcotic Drug, NDPS Act Section 27",Aizawl Bazar,Aizawl,23.72826204,92.71632931
+400169,2026-08-01,"Illicit Transport of Contraband, NDPS Act Section 23",Tarn Taran,Tarn Taran,31.45472484,74.9267608
+400219,2026-08-01,"Consumption of Narcotic Drug, NDPS Act Section 27",Aizawl Bazar,Aizawl,23.72622159,92.71859204
+400246,2026-08-01,"Cultivation of Cannabis, NDPS Act Section 20",Mundra Port Belt,Kutch,22.83905325,69.72081692
+400050,2026-07-30,"Conspiracy to Traffic, NDPS Act Section 29",Colaba,Mumbai South,18.90741629,72.81421535
+400099,2026-07-30,"Trafficking of Synthetic Drugs, NDPS Act Section 22",KR Market,Bengaluru South,12.96441324,77.57888885
+400156,2026-07-30,"Trafficking of Synthetic Drugs, NDPS Act Section 22",Kurla,Mumbai East,19.07256869,72.8803048
+400159,2026-07-30,"Consumption of Narcotic Drug, NDPS Act Section 27",Byculla,Mumbai Central,18.97365748,72.82754004
+400186,2026-07-30,"Trafficking of Synthetic Drugs, NDPS Act Section 22",Amritsar Border Belt,Amritsar Rural,31.63418511,74.87478092
+400191,2026-07-30,"Conspiracy to Traffic, NDPS Act Section 29",Kurla,Mumbai East,19.07384902,72.88242886
+400249,2026-07-30,"Possession of Cannabis, NDPS Act Section 20",Surat Textile Belt,Surat,21.16950689,72.83158198
+400074,2026-07-29,"Possession of Heroin, NDPS Act Section 21",KR Market,Bengaluru South,12.96301836,77.58000542
+400153,2026-07-29,"Cultivation of Cannabis, NDPS Act Section 20",Colaba,Mumbai South,18.90492135,72.81499532
+400270,2026-07-29,"Cultivation of Cannabis, NDPS Act Section 20",Kurla,Mumbai East,19.07151038,72.8841787
+400271,2026-07-29,"Possession of Psychotropic Substances, NDPS Act Section 22",Surat Textile Belt,Surat,21.16808409,72.83072484
+400068,2026-07-28,"Possession of Heroin, NDPS Act Section 21",Nizamuddin,South Delhi,28.59190083,77.25242425
+400135,2026-07-28,"Illicit Transport of Contraband, NDPS Act Section 23",Nizamuddin,South Delhi,28.59495416,77.24998227
+400150,2026-07-28,"Possession of Heroin, NDPS Act Section 21",Imphal Market,Imphal West,24.81452836,93.93531439
+400168,2026-07-28,"Possession of Heroin, NDPS Act Section 21",Majestic,Bengaluru Central,12.97573137,77.57245623
+400238,2026-07-28,"Possession of Heroin, NDPS Act Section 21",Imphal Market,Imphal West,24.81899216,93.93931862
+400103,2026-07-27,"Consumption of Narcotic Drug, NDPS Act Section 27",Tarn Taran,Tarn Taran,31.45066954,74.92870722
+400067,2026-07-26,"Possession for Sale, NDPS Act Section 20",Aizawl Bazar,Aizawl,23.72424872,92.71901939
+400183,2026-07-26,"Possession of Cannabis, NDPS Act Section 20",Paharganj,New Delhi,28.64556949,77.21912042
+400284,2026-07-26,"Possession of Cannabis, NDPS Act Section 20",Tarn Taran,Tarn Taran,31.45488624,74.9245219
+400102,2026-07-25,"Possession for Sale, NDPS Act Section 20",Majestic,Bengaluru Central,12.97597462,77.56956996
+400202,2026-07-25,"Possession of Psychotropic Substances, NDPS Act Section 22",ITO,Central Delhi,28.6285183,77.24287832
+400253,2026-07-25,"Consumption of Narcotic Drug, NDPS Act Section 27",Karol Bagh,New Delhi,28.65108339,77.19340762
+400163,2026-07-24,"Possession of Cannabis, NDPS Act Section 20",Tarn Taran,Tarn Taran,31.45040137,74.92765327
+400241,2026-07-24,"Possession for Sale, NDPS Act Section 20",Kurla,Mumbai East,19.07298363,72.88076342
+400291,2026-07-24,"Consumption of Narcotic Drug, NDPS Act Section 27",KR Market,Bengaluru South,12.9620393,77.57889605
+400109,2026-07-23,"Consumption of Narcotic Drug, NDPS Act Section 27",Dharavi,Mumbai South,19.04557332,72.85745478
+400124,2026-07-23,"Possession for Sale, NDPS Act Section 20",Amritsar Border Belt,Amritsar Rural,31.63355302,74.87377561
+400292,2026-07-23,"Trafficking of Synthetic Drugs, NDPS Act Section 22",Imphal Market,Imphal West,24.81936782,93.93611987
+400036,2026-07-22,"Possession of Psychotropic Substances, NDPS Act Section 22",Colaba,Mumbai South,18.90885781,72.81212514
+400071,2026-07-22,"Conspiracy to Traffic, NDPS Act Section 29",Byculla,Mumbai Central,18.97780133,72.82447475
+400088,2026-07-22,"Trafficking of Synthetic Drugs, NDPS Act Section 22",Nizamuddin,South Delhi,28.59580482,77.24842815
+400176,2026-07-22,"Illicit Transport of Contraband, NDPS Act Section 23",Majestic,Bengaluru Central,12.97645742,77.57230104
+400266,2026-07-22,"Possession of Psychotropic Substances, NDPS Act Section 22",Shivajinagar,Bengaluru Central,12.98829358,77.60740622
+400175,2026-07-21,"Possession of Psychotropic Substances, NDPS Act Section 22",Nizamuddin,South Delhi,28.593286,77.25119894
+400278,2026-07-21,"Possession of Psychotropic Substances, NDPS Act Section 22",Shivajinagar,Bengaluru Central,12.98392584,77.60343109
+400065,2026-07-20,"Conspiracy to Traffic, NDPS Act Section 29",Nizamuddin,South Delhi,28.5943016,77.24982207
+400134,2026-07-20,"Conspiracy to Traffic, NDPS Act Section 29",Shivajinagar,Bengaluru Central,12.98301109,77.60418915
+400211,2026-07-20,"Trafficking of Synthetic Drugs, NDPS Act Section 22",Byculla,Mumbai Central,18.97393267,72.82369
+400231,2026-07-20,"Possession of Psychotropic Substances, NDPS Act Section 22",Mundra Port Belt,Kutch,22.8395616,69.72085052
+400264,2026-07-20,"Possession of Psychotropic Substances, NDPS Act Section 22",Colaba,Mumbai South,18.90616515,72.81575818
+400195,2026-07-19,"Conspiracy to Traffic, NDPS Act Section 29",Amritsar Border Belt,Amritsar Rural,31.63502292,74.87375884
+400079,2026-07-18,"Cultivation of Cannabis, NDPS Act Section 20",Tarn Taran,Tarn Taran,31.45306391,74.92841683
+400257,2026-07-18,"Possession of Heroin, NDPS Act Section 21",Tarn Taran,Tarn Taran,31.44977371,74.927253
+400212,2026-07-17,"Cultivation of Cannabis, NDPS Act Section 20",KR Market,Bengaluru South,12.96268543,77.57768435
+400193,2026-07-16,"Possession of Cannabis, NDPS Act Section 20",Aizawl Bazar,Aizawl,23.72480006,92.71487208
+400041,2026-07-15,"Trafficking of Synthetic Drugs, NDPS Act Section 22",ITO,Central Delhi,28.62821771,77.23884109
+400080,2026-07-15,"Possession for Sale, NDPS Act Section 20",Dharavi,Mumbai South,19.04182325,72.8552611
+400115,2026-07-15,"Conspiracy to Traffic, NDPS Act Section 29",Surat Textile Belt,Surat,21.17299284,72.82972049
+400194,2026-07-15,"Trafficking of Synthetic Drugs, NDPS Act Section 22",Kurla,Mumbai East,19.07038315,72.88492356
+400226,2026-07-15,"Consumption of Narcotic Drug, NDPS Act Section 27",Dharavi,Mumbai South,19.04055055,72.8571829
+400295,2026-07-15,"Cultivation of Cannabis, NDPS Act Section 20",KR Market,Bengaluru South,12.96101559,77.57606752
+400300,2026-07-15,"Possession for Sale, NDPS Act Section 20",Colaba,Mumbai South,18.90733057,72.81577437
+400045,2026-07-14,"Illicit Transport of Contraband, NDPS Act Section 23",Dharavi,Mumbai South,19.04591185,72.85559122
+400084,2026-07-14,"Possession of Heroin, NDPS Act Section 21",Colaba,Mumbai South,18.90516906,72.81455082
+400094,2026-07-14,"Possession of Heroin, NDPS Act Section 21",Tarn Taran,Tarn Taran,31.4531637,74.92723851
+400151,2026-07-14,"Conspiracy to Traffic, NDPS Act Section 29",Surat Textile Belt,Surat,21.17214956,72.82810691
+400280,2026-07-14,"Trafficking of Synthetic Drugs, NDPS Act Section 22",Dharavi,Mumbai South,19.04379173,72.85745028
+400021,2026-07-13,"Possession of Heroin, NDPS Act Section 21",Karol Bagh,New Delhi,28.65365248,77.19043296
+400051,2026-07-13,"Possession of Psychotropic Substances, NDPS Act Section 22",Majestic,Bengaluru Central,12.97492556,77.57259715
+400095,2026-07-13,"Possession of Psychotropic Substances, NDPS Act Section 22",KR Market,Bengaluru South,12.96365567,77.57659465
+400214,2026-07-13,"Possession for Sale, NDPS Act Section 20",Aizawl Bazar,Aizawl,23.72680933,92.71597096
+400299,2026-07-13,"Possession for Sale, NDPS Act Section 20",Imphal Market,Imphal West,24.81420879,93.9342034
+400172,2026-07-12,"Possession of Cannabis, NDPS Act Section 20",Shivajinagar,Bengaluru Central,12.98792054,77.60297595
+400161,2026-07-11,"Illicit Transport of Contraband, NDPS Act Section 23",Mundra Port Belt,Kutch,22.84159156,69.72167928
+400069,2026-07-10,"Illicit Transport of Contraband, NDPS Act Section 23",Colaba,Mumbai South,18.90885156,72.8130346
+400256,2026-07-10,"Trafficking of Synthetic Drugs, NDPS Act Section 22",Paharganj,New Delhi,28.64380017,77.21719644
+400070,2026-07-09,"Consumption of Narcotic Drug, NDPS Act Section 27",Nizamuddin,South Delhi,28.59163754,77.2516602
+400229,2026-07-09,"Illicit Transport of Contraband, NDPS Act Section 23",Majestic,Bengaluru Central,12.97635868,77.57084409
+400289,2026-07-09,"Conspiracy to Traffic, NDPS Act Section 29",Shivajinagar,Bengaluru Central,12.9855923,77.60863474
+400028,2026-07-08,"Possession for Sale, NDPS Act Section 20",KR Market,Bengaluru South,12.96333163,77.57477121
+400086,2026-07-08,"Possession of Heroin, NDPS Act Section 21",Dharavi,Mumbai South,19.04535596,72.85916264
+400104,2026-07-08,"Possession of Cannabis, NDPS Act Section 20",Byculla,Mumbai Central,18.97482184,72.82729415
+400157,2026-07-08,"Illicit Transport of Contraband, NDPS Act Section 23",Shivajinagar,Bengaluru Central,12.98555323,77.60434055
+400197,2026-07-08,"Illicit Transport of Contraband, NDPS Act Section 23",Majestic,Bengaluru Central,12.9738963,77.57052318
+400064,2026-07-07,"Possession of Cannabis, NDPS Act Section 20",Amritsar Border Belt,Amritsar Rural,31.63639389,74.87407673
+400260,2026-07-07,"Possession for Sale, NDPS Act Section 20",Amritsar Border Belt,Amritsar Rural,31.6328532,74.87500702
+400276,2026-07-07,"Possession of Cannabis, NDPS Act Section 20",Imphal Market,Imphal West,24.81769209,93.93923514
+400114,2026-07-06,"Trafficking of Synthetic Drugs, NDPS Act Section 22",Amritsar Border Belt,Amritsar Rural,31.63481351,74.87427224
+400131,2026-07-06,"Illicit Transport of Contraband, NDPS Act Section 23",Dharavi,Mumbai South,19.04344439,72.85681638
+400171,2026-07-06,"Possession of Heroin, NDPS Act Section 21",Byculla,Mumbai Central,18.97460383,72.82339066
+400140,2026-07-04,"Possession of Psychotropic Substances, NDPS Act Section 22",Nizamuddin,South Delhi,28.59584347,77.25242697
+400142,2026-07-04,"Cultivation of Cannabis, NDPS Act Section 20",Karol Bagh,New Delhi,28.65365577,77.19147026
+400178,2026-07-04,"Consumption of Narcotic Drug, NDPS Act Section 27",Majestic,Bengaluru Central,12.97644101,77.57011273
+400221,2026-07-04,"Conspiracy to Traffic, NDPS Act Section 29",Mundra Port Belt,Kutch,22.83774547,69.71964931
+400277,2026-07-04,"Conspiracy to Traffic, NDPS Act Section 29",Paharganj,New Delhi,28.64509283,77.21806341
+400199,2026-07-03,"Possession of Heroin, NDPS Act Section 21",Colaba,Mumbai South,18.90608884,72.81283885
+400245,2026-07-03,"Trafficking of Synthetic Drugs, NDPS Act Section 22",KR Market,Bengaluru South,12.96558548,77.5778633
+400138,2026-07-02,"Illicit Transport of Contraband, NDPS Act Section 23",Byculla,Mumbai Central,18.9729392,72.82525111
+400268,2026-07-02,"Trafficking of Synthetic Drugs, NDPS Act Section 22",Aizawl Bazar,Aizawl,23.72989761,92.71950135
+400096,2026-07-01,"Consumption of Narcotic Drug, NDPS Act Section 27",Dharavi,Mumbai South,19.04514039,72.85859357
+400166,2026-07-01,"Conspiracy to Traffic, NDPS Act Section 29",Kurla,Mumbai East,19.07504514,72.88224184
+400224,2026-07-01,"Possession for Sale, NDPS Act Section 20",Majestic,Bengaluru Central,12.97791619,77.57015391
+400235,2026-07-01,"Possession of Cannabis, NDPS Act Section 20",Amritsar Border Belt,Amritsar Rural,31.63143245,74.87447059
+400259,2026-07-01,"Conspiracy to Traffic, NDPS Act Section 29",Surat Textile Belt,Surat,21.16776072,72.83212274
+400184,2026-06-30,"Trafficking of Synthetic Drugs, NDPS Act Section 22",Imphal Market,Imphal West,24.81420019,93.93598917
+400054,2026-06-29,"Possession for Sale, NDPS Act Section 20",ITO,Central Delhi,28.62803531,77.23879474
+400066,2026-06-29,"Trafficking of Synthetic Drugs, NDPS Act Section 22",Paharganj,New Delhi,28.64735458,77.21512042
+400210,2026-06-29,"Illicit Transport of Contraband, NDPS Act Section 23",Tarn Taran,Tarn Taran,31.45155764,74.92364777
+400010,2026-06-28,"Cultivation of Cannabis, NDPS Act Section 20",Byculla,Mumbai Central,18.97227495,72.82416739
+400025,2026-06-28,"Conspiracy to Traffic, NDPS Act Section 29",Majestic,Bengaluru Central,12.97953133,77.57287177
+400130,2026-06-28,"Illicit Transport of Contraband, NDPS Act Section 23",Shivajinagar,Bengaluru Central,12.9866845,77.60345768
+400290,2026-06-28,"Possession for Sale, NDPS Act Section 20",Colaba,Mumbai South,18.90821975,72.81284662
+400082,2026-06-27,"Possession for Sale, NDPS Act Section 20",Shivajinagar,Bengaluru Central,12.98559271,77.60649765
+400116,2026-06-27,"Possession for Sale, NDPS Act Section 20",Aizawl Bazar,Aizawl,23.72905441,92.71815485
+400155,2026-06-27,"Possession of Heroin, NDPS Act Section 21",Shivajinagar,Bengaluru Central,12.98580503,77.60601351
+400201,2026-06-27,"Possession of Psychotropic Substances, NDPS Act Section 22",KR Market,Bengaluru South,12.96186141,77.57485554
+400015,2026-06-26,"Possession of Psychotropic Substances, NDPS Act Section 22",KR Market,Bengaluru South,12.96545711,77.578756
+400037,2026-06-26,"Illicit Transport of Contraband, NDPS Act Section 23",Mundra Port Belt,Kutch,22.83768542,69.71979387
+400185,2026-06-26,"Possession of Psychotropic Substances, NDPS Act Section 22",Shivajinagar,Bengaluru Central,12.98446031,77.60519302
+400200,2026-06-26,"Possession of Cannabis, NDPS Act Section 20",ITO,Central Delhi,28.62885023,77.24158288
+400237,2026-06-26,"Possession for Sale, NDPS Act Section 20",Aizawl Bazar,Aizawl,23.72583709,92.71703019
+400232,2026-06-25,"Possession of Psychotropic Substances, NDPS Act Section 22",Colaba,Mumbai South,18.90374612,72.81350852
+400001,2026-06-24,"Possession of Psychotropic Substances, NDPS Act Section 22",Kurla,Mumbai East,19.06995006,72.88125018
+400007,2026-06-24,"Cultivation of Cannabis, NDPS Act Section 20",Tarn Taran,Tarn Taran,31.4495803,74.92808497
+400029,2026-06-24,"Possession of Heroin, NDPS Act Section 21",Colaba,Mumbai South,18.90514523,72.81510414
+400090,2026-06-24,"Illicit Transport of Contraband, NDPS Act Section 23",Surat Textile Belt,Surat,21.16976044,72.83354113
+400170,2026-06-24,"Cultivation of Cannabis, NDPS Act Section 20",Byculla,Mumbai Central,18.97340862,72.8269064
+400206,2026-06-24,"Conspiracy to Traffic, NDPS Act Section 29",Majestic,Bengaluru Central,12.97401439,77.57275031
+400293,2026-06-24,"Cultivation of Cannabis, NDPS Act Section 20",Mundra Port Belt,Kutch,22.83860408,69.72378375
+400296,2026-06-24,"Illicit Transport of Contraband, NDPS Act Section 23",Aizawl Bazar,Aizawl,23.72509987,92.71726345
+400110,2026-06-23,"Possession of Psychotropic Substances, NDPS Act Section 22",ITO,Central Delhi,28.62545598,77.24214369
+400014,2026-06-22,"Conspiracy to Traffic, NDPS Act Section 29",Tarn Taran,Tarn Taran,31.45061969,74.92855235
+400139,2026-06-22,"Illicit Transport of Contraband, NDPS Act Section 23",Nizamuddin,South Delhi,28.59202863,77.24939631
+400281,2026-06-22,"Consumption of Narcotic Drug, NDPS Act Section 27",Dharavi,Mumbai South,19.04368886,72.85544339
+400297,2026-06-22,"Possession of Cannabis, NDPS Act Section 20",Amritsar Border Belt,Amritsar Rural,31.63468911,74.87190964
+400016,2026-06-21,"Possession for Sale, NDPS Act Section 20",KR Market,Bengaluru South,12.96280699,77.57449713
+400020,2026-06-21,"Possession of Heroin, NDPS Act Section 21",Mundra Port Belt,Kutch,22.83694546,69.7192827
+400059,2026-06-21,"Possession of Cannabis, NDPS Act Section 20",Majestic,Bengaluru Central,12.97673245,77.56980673
+400060,2026-06-21,"Possession for Sale, NDPS Act Section 20",Aizawl Bazar,Aizawl,23.72907609,92.71486452
+400136,2026-06-21,"Possession of Heroin, NDPS Act Section 21",Aizawl Bazar,Aizawl,23.72593228,92.71832616
+400283,2026-06-21,"Illicit Transport of Contraband, NDPS Act Section 23",Surat Textile Belt,Surat,21.17052491,72.83044272
+400027,2026-06-20,"Conspiracy to Traffic, NDPS Act Section 29",Karol Bagh,New Delhi,28.65213627,77.19257176
+400048,2026-06-20,"Trafficking of Synthetic Drugs, NDPS Act Section 22",Karol Bagh,New Delhi,28.64924128,77.19094697
+400107,2026-06-20,"Possession for Sale, NDPS Act Section 20",ITO,Central Delhi,28.6277902,77.23953746
+400181,2026-06-20,"Cultivation of Cannabis, NDPS Act Section 20",Colaba,Mumbai South,18.9091637,72.81617103
+400242,2026-06-20,"Possession of Psychotropic Substances, NDPS Act Section 22",Paharganj,New Delhi,28.64321761,77.21457867
+400072,2026-06-19,"Cultivation of Cannabis, NDPS Act Section 20",KR Market,Bengaluru South,12.96603542,77.57479205
+400108,2026-06-19,"Cultivation of Cannabis, NDPS Act Section 20",Kurla,Mumbai East,19.07446675,72.88058259
+400180,2026-06-19,"Cultivation of Cannabis, NDPS Act Section 20",Dharavi,Mumbai South,19.04586767,72.85794938
+400008,2026-06-18,"Consumption of Narcotic Drug, NDPS Act Section 27",Imphal Market,Imphal West,24.81721737,93.93963869
+400053,2026-06-18,"Possession of Heroin, NDPS Act Section 21",Imphal Market,Imphal West,24.81772696,93.93717796
+400087,2026-06-18,"Illicit Transport of Contraband, NDPS Act Section 23",Karol Bagh,New Delhi,28.65372466,77.19207547
+400129,2026-06-18,"Possession of Cannabis, NDPS Act Section 20",Dharavi,Mumbai South,19.04424811,72.8547595
+400137,2026-06-18,"Possession of Psychotropic Substances, NDPS Act Section 22",ITO,Central Delhi,28.62658788,77.23848712
+400217,2026-06-18,"Possession for Sale, NDPS Act Section 20",Byculla,Mumbai Central,18.97255938,72.82337939
+400019,2026-06-17,"Possession of Psychotropic Substances, NDPS Act Section 22",Aizawl Bazar,Aizawl,23.72948694,92.7169964
+400112,2026-06-17,"Possession for Sale, NDPS Act Section 20",Colaba,Mumbai South,18.90578322,72.81427027
+400240,2026-06-17,"Trafficking of Synthetic Drugs, NDPS Act Section 22",Shivajinagar,Bengaluru Central,12.98697483,77.60402943
+400261,2026-06-17,"Cultivation of Cannabis, NDPS Act Section 20",Nizamuddin,South Delhi,28.59629986,77.24862967
+400118,2026-06-16,"Possession for Sale, NDPS Act Section 20",Tarn Taran,Tarn Taran,31.45101838,74.92596584
+400147,2026-06-16,"Illicit Transport of Contraband, NDPS Act Section 23",Majestic,Bengaluru Central,12.97478893,77.57181198
+400167,2026-06-16,"Trafficking of Synthetic Drugs, NDPS Act Section 22",Paharganj,New Delhi,28.64425987,77.21762869
+400209,2026-06-16,"Possession of Cannabis, NDPS Act Section 20",Surat Textile Belt,Surat,21.16900978,72.83196004
+400004,2026-06-15,"Consumption of Narcotic Drug, NDPS Act Section 27",ITO,Central Delhi,28.62929612,77.24220795
+400013,2026-06-15,"Possession of Psychotropic Substances, NDPS Act Section 22",Byculla,Mumbai Central,18.97565479,72.82382683
+400187,2026-06-15,"Possession for Sale, NDPS Act Section 20",Mundra Port Belt,Kutch,22.8422043,69.72077085
+400189,2026-06-15,"Conspiracy to Traffic, NDPS Act Section 29",Byculla,Mumbai Central,18.97674409,72.82288351
+400250,2026-06-15,"Trafficking of Synthetic Drugs, NDPS Act Section 22",ITO,Central Delhi,28.62692916,77.24085377
+400043,2026-06-14,"Possession of Psychotropic Substances, NDPS Act Section 22",Dharavi,Mumbai South,19.04581398,72.8595582
+400078,2026-06-14,"Trafficking of Synthetic Drugs, NDPS Act Section 22",KR Market,Bengaluru South,12.9628144,77.57587393
+400113,2026-06-14,"Illicit Transport of Contraband, NDPS Act Section 23",KR Market,Bengaluru South,12.96047591,77.57662035
+400044,2026-06-13,"Possession of Cannabis, NDPS Act Section 20",Mundra Port Belt,Kutch,22.83928815,69.7241879
+400098,2026-06-13,"Illicit Transport of Contraband, NDPS Act Section 23",Nizamuddin,South Delhi,28.59322938,77.24933761
+400122,2026-06-13,"Cultivation of Cannabis, NDPS Act Section 20",Mundra Port Belt,Kutch,22.83908905,69.71910346
+400132,2026-06-13,"Possession of Heroin, NDPS Act Section 21",Colaba,Mumbai South,18.90521487,72.81687034
+400239,2026-06-13,"Conspiracy to Traffic, NDPS Act Section 29",Kurla,Mumbai East,19.0712599,72.88313323
+400026,2026-06-12,"Possession of Psychotropic Substances, NDPS Act Section 22",Shivajinagar,Bengaluru Central,12.98755002,77.60574598
+400148,2026-06-11,"Possession of Heroin, NDPS Act Section 21",Amritsar Border Belt,Amritsar Rural,31.63345009,74.87122635
+400254,2026-06-11,"Possession for Sale, NDPS Act Section 20",KR Market,Bengaluru South,12.96447339,77.57441419
+400273,2026-06-11,"Possession of Psychotropic Substances, NDPS Act Section 22",Nizamuddin,South Delhi,28.592617,77.24818963
+400288,2026-06-11,"Possession of Psychotropic Substances, NDPS Act Section 22",Imphal Market,Imphal West,24.8142219,93.93500955
+400063,2026-06-10,"Trafficking of Synthetic Drugs, NDPS Act Section 22",Amritsar Border Belt,Amritsar Rural,31.63449506,74.87018856
+400128,2026-06-10,"Possession for Sale, NDPS Act Section 20",Kurla,Mumbai East,19.07479577,72.88137748
+400230,2026-06-10,"Consumption of Narcotic Drug, NDPS Act Section 27",ITO,Central Delhi,28.62952966,77.23868291
+400017,2026-06-09,"Illicit Transport of Contraband, NDPS Act Section 23",Mundra Port Belt,Kutch,22.83877379,69.72448729
+400057,2026-06-09,"Conspiracy to Traffic, NDPS Act Section 29",Paharganj,New Delhi,28.6433868,77.21903828
+400092,2026-06-09,"Cultivation of Cannabis, NDPS Act Section 20",Nizamuddin,South Delhi,28.59194758,77.2481649
+400093,2026-06-08,"Trafficking of Synthetic Drugs, NDPS Act Section 22",KR Market,Bengaluru South,12.96231826,77.57734091
+400120,2026-06-08,"Possession of Psychotropic Substances, NDPS Act Section 22",Majestic,Bengaluru Central,12.97703475,77.57139976
+400040,2026-06-07,"Possession of Heroin, NDPS Act Section 21",Kurla,Mumbai East,19.07016368,72.88396928
+400105,2026-06-07,"Possession of Cannabis, NDPS Act Section 20",Byculla,Mumbai Central,18.9766874,72.82671053
+400126,2026-06-07,"Trafficking of Synthetic Drugs, NDPS Act Section 22",KR Market,Bengaluru South,12.96111733,77.57731518
+400205,2026-06-06,"Possession for Sale, NDPS Act Section 20",Amritsar Border Belt,Amritsar Rural,31.63573991,74.87072759
+400223,2026-06-06,"Cultivation of Cannabis, NDPS Act Section 20",Dharavi,Mumbai South,19.04365397,72.85794699
+400030,2026-06-05,"Conspiracy to Traffic, NDPS Act Section 29",Mundra Port Belt,Kutch,22.84129614,69.72486791
+400085,2026-06-05,"Consumption of Narcotic Drug, NDPS Act Section 27",ITO,Central Delhi,28.62931008,77.24030387
+400133,2026-06-05,"Possession of Cannabis, NDPS Act Section 20",Mundra Port Belt,Kutch,22.83684449,69.72277667
+400203,2026-06-05,"Cultivation of Cannabis, NDPS Act Section 20",Paharganj,New Delhi,28.64653186,77.21727589
+400220,2026-06-05,"Conspiracy to Traffic, NDPS Act Section 29",Shivajinagar,Bengaluru Central,12.98610246,77.60480988
+400225,2026-06-05,"Consumption of Narcotic Drug, NDPS Act Section 27",Karol Bagh,New Delhi,28.65411918,77.19129793
+400298,2026-06-05,"Trafficking of Synthetic Drugs, NDPS Act Section 22",Tarn Taran,Tarn Taran,31.45117987,74.92780658
+400006,2026-06-03,"Possession for Sale, NDPS Act Section 20",KR Market,Bengaluru South,12.96206723,77.57539188
+400035,2026-06-03,"Possession of Cannabis, NDPS Act Section 20",Nizamuddin,South Delhi,28.59383064,77.24774315
+400216,2026-06-03,"Illicit Transport of Contraband, NDPS Act Section 23",Amritsar Border Belt,Amritsar Rural,31.63672156,74.87342093
+400287,2026-06-03,"Trafficking of Synthetic Drugs, NDPS Act Section 22",Imphal Market,Imphal West,24.81988492,93.93667119
+400042,2026-06-02,"Conspiracy to Traffic, NDPS Act Section 29",Nizamuddin,South Delhi,28.59554692,77.24815231
+400101,2026-06-02,"Illicit Transport of Contraband, NDPS Act Section 23",Dharavi,Mumbai South,19.04050368,72.85657168
+400141,2026-06-02,"Trafficking of Synthetic Drugs, NDPS Act Section 22",Nizamuddin,South Delhi,28.59418581,77.25315047
+400247,2026-06-02,"Illicit Transport of Contraband, NDPS Act Section 23",Amritsar Border Belt,Amritsar Rural,31.63404402,74.87116245
+400274,2026-06-02,"Trafficking of Synthetic Drugs, NDPS Act Section 22",Kurla,Mumbai East,19.07483506,72.88349976
+400052,2026-06-01,"Possession for Sale, NDPS Act Section 20",Paharganj,New Delhi,28.64583014,77.21549998
+400083,2026-06-01,"Possession of Psychotropic Substances, NDPS Act Section 22",Nizamuddin,South Delhi,28.59433677,77.24904784
+400204,2026-06-01,"Possession of Cannabis, NDPS Act Section 20",Majestic,Bengaluru Central,12.97849108,77.56895956
